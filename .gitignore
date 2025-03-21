@@ -1,0 +1,33 @@
+# Ignore sensitive files
+*.env
+*.key
+*.secret
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.pyc
+*.class
+*.exe
+
+# Ignore dependency directories
+node_modules/
+venv/
+__pycache__/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore database files (if any)
+*.db
+*.sqlite
